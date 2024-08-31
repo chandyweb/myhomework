@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100vh;
+            color: white;
+        }
+        header {
+            width: 100%;
+            height: 54px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        header nav {
+            width: 95%;
+
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            padding: 20px 40px; 
+        }
+        section {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        section h1{
+            text-align: center;
+            padding-top: 50px;
+        }
+        main {
+            width: 95%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top:60px;
+        }
+        .card1,.card2,.card3{
+            width: 350px;
+            height: 200px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            border-radius: 20px;
+        }
+        .text {
+            width: 100%;
+            height: 50%;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://i.pinimg.com/originals/91/df/ed/91dfed3df7a285ecdb8098dafd01d8df.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html" style="background-color: aqua;color: blue;box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./main.html">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="text">
+        <h1>Welcome Enime</h1>
+        </div>
+        <main>
+            <div class="card1" style="background-image: url(https://i.pinimg.com/736x/c5/1e/d5/c51ed53972f630d7cce14296f3d758d2.jpg);
+            background-position: center;background-size: cover;"><h1>Card1</h1></div>
+            <div class="card2" style="background-image:url(https://i.pinimg.com/originals/18/f0/71/18f071ebcc23e9f0755ac0b4ace1cef0.jpg);
+            background-position:center;
+            background-size:cover;"><h1>Card2<h1></div>
+            <div class="card3" style="background-image:url(https://i.pinimg.com/474x/22/71/52/2271521a03acf7a828caf70838fec0db.jpg);
+            background-position:center;
+            background-size:cover;"><h1>Card3</h1></div>
+        </main>
+    </section>
+</body>
+</html>

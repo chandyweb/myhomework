@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100vh;
+        }
+        header {
+            width: 100%;
+            height: 54px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            position: fixed;
+            top: 0;
+            left: 0;
+
+        }
+        header nav {
+            width: 95%;
+
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            padding: 20px 40px; 
+        }
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+        
+        }
+        main {
+            width: 40%;
+            margin-top: 50px;
+            margin: auto;
+        }
+        .box {
+            width: 100%;
+            height: 300px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
+        .contant {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+
+        }
+        .box1,.box2,.box3{
+            width: 70%;
+            height: 200px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html" style="background-color: aqua;color: blue;box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">About</a></li>
+                <li><a href="./main.html">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <main>
+            <div class="box" style="background-image:url(https://i.pinimg.com/474x/ba/ff/a0/baffa00dc849c954a19c9b4c097f8981.jpg);
+            background-position:center;
+            background-size:cover;border-radius: 20px;"></div>
+            <h1>Enime</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos sequi ipsam mollitia laudantium accusamus delectus aut neque dolorum, excepturi repellat minus vero molestiae tenetur voluptatum debitis, dolore explicabo, nam nihil.</p>
+
+        </main>
+        <div class="contant">
+            <div class="box1" style="background-image:url(https://i.pinimg.com/474x/d5/42/ca/d542caa07b910c8d08ebffdcd6752ede.jpg);
+            background-position:center;
+            background-size:cover;"><h1>Box1</h1></div>
+            <div class="box2" style="background-image:url(https://i.pinimg.com/474x/c9/67/2d/c9672d34ef61d5b0a5a61bb391ccc8a9.jpg);
+            background-position:center;
+            background-size:cover;"><h1>Box2</h1></div>
+            <div class="box3" style="background-image:url(https://i.pinimg.com/474x/ae/47/3a/ae473ac49c3466019287f10668c67bef.jpg);
+            background-position:center;
+            background-size:cover;"><h1>Box3</h1></div>
+        </div>
+    </section>
+</body>
+</html>
